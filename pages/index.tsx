@@ -123,10 +123,10 @@ export default function Home() {
                           {isMinting ? "loading" : "mint 1"}
                         </button>
                       </div>
-                      <div className="flex flex-col w-1/2">
+                      {/*<div className="flex flex-col w-1/2">
                         <h1 className="mb-10 text-3xl font-bold">Mint Many</h1>
                         <MintMany />
-                      </div>
+                      </div>*/}
                     </>
                   )}
                 </>
