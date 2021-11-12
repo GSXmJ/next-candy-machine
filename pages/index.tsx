@@ -113,7 +113,7 @@ export default function Home() {
                     <p>SOLD OUT</p>
                   ) : (
                     <>
-                      <div className="flex flex-col w-1/2">
+                      <div className="flex flex-col w-1">
                         <h1 className="mb-10 text-3xl font-bold">Mint One</h1>
                         <button
                           onClick={startMint}
